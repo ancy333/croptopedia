@@ -1,0 +1,42 @@
+.App1 {
+  text-align: center;
+  padding: 0px;
+  margin-top:0px;
+  //overflow-y:hidden;
+  
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+select {
+  
+  padding-top: 0px;
+}
+
+footer {
+  
+  font-size: 14px;
+}
+
+
+ .App {
+text-align: center;
+max-width:600px;
+}
+
+.App-header {
+//background-color: #282c34;
+display:flex;
+padding: 20px;
+color: white;
+}
+
+section {
+margin: 0px auto;
+max-width:900px;
+//align-items:right;
+justify-content:center;
+
+} 

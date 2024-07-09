@@ -1,0 +1,59 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: rgba(180, 180, 226, 0.9); /* Light blue with transparency */
+    backdrop-filter: blur(10px); /* Background blur effect */
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 250px; /* Adjusted for sidebar width */
+    right: 0;
+    height: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+    font-size: 1.7rem;
+    font-family: 'Calibri', sans-serif;
+    padding-bottom:35px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbar-right svg {
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .navbar-right svg:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      left: 200px; /* Adjusted for smaller sidebar width */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar {
+      left: 100px; /* Adjusted for compact sidebar width */
+    }
+  
+    .navbar-left h1 {
+      font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+  }
+  

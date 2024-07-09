@@ -1,0 +1,20 @@
+Basic Reset
+body, h1, h4, p, div, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    padding-top:20px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .AboutClass {
+    //padding-top:100px;
+    //max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(173, 216, 230, 0.2); /* Light blue with transparency */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #a0c4ff; /* Light blue border */
+    transition: background 0.3s ease-in-out;
+  }

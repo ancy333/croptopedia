@@ -1,0 +1,36 @@
+/* src/App.css */
+
+.app {
+  display: flex;
+} 
+
+.content {
+  margin-left: 250px; /* Adjusted for sidebar width */
+  padding-top: 60px; /* Adjusted for navbar height */
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-grow: 1;
+  //background: #f0f4f8; /* Light background for content area */
+}
+
+.main-content {
+  padding: 0px;
+}
+
+ @media (max-width: 768px) {
+  .content {
+    margin-left: 200px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .content {
+    margin-left: 100px; 
+  }
+}
+.plot-container plotly{
+  width: 100% ;
+  height: 100% ;
+  max-width: 100%;
+  height: 100px;
+}  

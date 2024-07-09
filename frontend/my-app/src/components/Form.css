@@ -1,0 +1,144 @@
+Basic Reset
+body, h1, h4, p, div, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    //box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container Styling */
+  .container {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    
+    padding-left: 20px;
+    padding-right:20px;
+    background: rgba(173, 216, 230, 0.2); /* Light blue with transparency */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #a0c4ff; /* Light blue border */
+    transition: background 0.3s ease-in-out;
+    max-height:700px;
+    //overflow-y:hidden;
+  }
+  
+  .container:hover {
+    background: rgba(173, 216, 230, 0.3); /* Increase transparency on hover */
+  }
+  
+  .container h1 {
+    color: #005f99; /* Darker blue */
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 3px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #004c80; /* Slightly darker blue */
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #a0c4ff;
+    border-radius: 10px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.7); /* White with transparency */
+    color: #005f99;
+    transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: #005f99;
+    outline: none;
+  }
+  
+  .form-control::placeholder {
+    color: #aaa;
+  }
+  
+  .btn {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .btn:disabled {
+    background-color: #a9a9a9;
+    cursor: not-allowed;
+  }
+  
+  .btn:hover:not(:disabled) {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .text-center {
+    text-align: center;
+    padding-top:0px;
+  }
+  
+  .mt-3 {
+    margin-top: 1rem;
+    text-align:center
+  }
+  
+  .mt-4 {
+    margin-top: 2rem;
+    text-align:center
+
+  }
+  
+  h4 {
+    color: #004c80;
+    margin-top: 20px;
+  }
+  
+  #prediction p {
+    font-size: 18px;
+    color: #004c80;
+  }*/
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .form-control {
+      font-size: 14px;
+    }
+  
+    .btn {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  
+    h4 {
+      font-size: 16px;
+    }
+  
+    #prediction p {
+      font-size: 16px;
+    }
+  }
+  
+  .hello{
+    text-align:center;
+    padding-bottom:20px;
+  }
